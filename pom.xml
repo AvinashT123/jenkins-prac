@@ -9,9 +9,8 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.docker</groupId>
-	<artifactId>demo</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
+	<artifactId>jenkinsdemo</artifactId>
+	<version>v1.0</version>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
