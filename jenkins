@@ -1,0 +1,19 @@
+pipeline {
+    agent any
+tools{
+    jdk 'jdk21'
+    maven 'Maven 3.9.9'
+}
+    stages {
+        stage('Git Checkout') {
+            steps {
+                git branch: 'main', changelog: false, credentialsId: '8aa1f64f-cacb-41ac-a05d-b9f8d401123f', poll: false, url: 'https://github.com/AvinashT123/jenkins-prac.git'
+            }
+        }
+        stage('Maven Build') {
+            steps {
+                sh 'mvn clean compile"
+            }
+        }
+    }
+}
