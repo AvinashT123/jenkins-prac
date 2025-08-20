@@ -12,6 +12,7 @@
 	<artifactId>docker-prac</artifactId>
 	<version>v1</version>
 	<description>Demo project for Spring Boot</description>
+	<packaging>jar</packaging>
 	<url/>
 	<licenses>
 		<license/>

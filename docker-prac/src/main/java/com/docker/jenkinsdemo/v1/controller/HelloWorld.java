@@ -1,4 +1,4 @@
-package com.docker.jenkinsdemo.controller;
+package com.docker.jenkinsdemo.v1.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

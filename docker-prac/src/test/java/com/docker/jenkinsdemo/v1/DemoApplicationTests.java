@@ -1,4 +1,4 @@
-package com.docker.jenkinsdemo;
+package com.docker.jenkinsdemo.v1;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package com.docker.jenkinsdemo;
+package com.docker.jenkinsdemo.v1;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
