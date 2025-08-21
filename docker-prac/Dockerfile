@@ -2,7 +2,7 @@
 FROM eclipse-temurin:21-jdk-alpine
 
 # Set working directory in the container
-WORKDIR /app
+WORKDIR /hello-world
 
 # Copy the JAR file into the container
 COPY target/docker-prac-v1.jar hello-world.jar
